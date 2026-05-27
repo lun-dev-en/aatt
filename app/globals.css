@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* メインをピンク（やわらか）と白基調に変更 */
+  --background: #fffafc; /* very light pink */
+  --foreground: #4b1132; /* deep rose for text */
+  --accent: #ff77c9; /* primary pink accent */
 }
 
 @theme inline {
@@ -14,8 +16,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b0610;
+    --foreground: #ffd6ec; /* pale pink text on dark */
   }
 }
 
